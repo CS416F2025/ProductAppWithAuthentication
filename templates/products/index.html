@@ -71,7 +71,7 @@
 {% block js %}
     <script>
 
-    function deleteProduct(productId) {x
+    function deleteProduct(productId) {
         $.ajax({
             url: '{% url 'delete_product_with_ajax' %}',
             type: 'POST',
